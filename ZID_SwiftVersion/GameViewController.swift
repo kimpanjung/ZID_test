@@ -9,48 +9,43 @@
 import UIKit
 import QuartzCore
 import SceneKit
+import SpriteKit
 
 class GameViewController: UIViewController {
+    
+    var scnView: SCNView{
+        get{
+            return self.view as SCNView
+        }
+    }
+    
+    
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        // Set up the SCNView
+        scnView.showsStatistics = true
+        scnView.antialiasingMode = SCNAntialiasingMode.Multisampling2X
+        scnView.overlaySKScene = SKScene(size: view.bounds.size)
+        scnView.playing = true
+        
+        // create a new game scene
+        let scene = GameScene(view: scnView)
+        //let scene = SCNScene(named: "car.dae")
+        
+        // create skybox
+        scene.background.contents = ["skybox_right.png", "skybox_left.png",
+            "skybox_up.png", "skybox_bottom.png",
+            "skybox_back.png", "skybox_front.png"]
+        
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        // create a new scene
-        let scene = SCNScene(named: "art.scnassets/ship.dae")!
-        
-        // create and add a camera to the scene
-        let cameraNode = SCNNode()
-        cameraNode.camera = SCNCamera()
-        scene.rootNode.addChildNode(cameraNode)
-        
-        // place the camera
-        cameraNode.position = SCNVector3(x: 0, y: 0, z: 15)
-        
-        // create and add a light to the scene
-        let lightNode = SCNNode()
-        lightNode.light = SCNLight()
-        lightNode.light!.type = SCNLightTypeOmni
-        lightNode.position = SCNVector3(x: 0, y: 10, z: 10)
-        scene.rootNode.addChildNode(lightNode)
-        
-        // create and add an ambient light to the scene
-        let ambientLightNode = SCNNode()
-        ambientLightNode.light = SCNLight()
-        ambientLightNode.light!.type = SCNLightTypeAmbient
-        ambientLightNode.light!.color = UIColor.darkGrayColor()
-        scene.rootNode.addChildNode(ambientLightNode)
-        
-        // retrieve the ship node
-        let ship = scene.rootNode.childNodeWithName("ship", recursively: true)!
-        
         // animate the 3d object
-        ship.runAction(SCNAction.repeatActionForever(SCNAction.rotateByX(0, y: 2, z: 0, duration: 1)))
-        
-        // retrieve the SCNView
-        let scnView = self.view as SCNView
+        //ship.runAction(SCNAction.repeatActionForever(SCNAction.rotateByX(0, y: 2, z: 0, duration: 1)))
         
         // set the scene to the view
         scnView.scene = scene
+        //scnView.delegate = scene
+        scnView.scene!.rootNode.hidden = false
         
         // allows the user to manipulate the camera
         scnView.allowsCameraControl = true
@@ -60,6 +55,9 @@ class GameViewController: UIViewController {
         
         // configure the view
         scnView.backgroundColor = UIColor.blackColor()
+        
+        scnView.jitteringEnabled = true
+
         
         // add a tap gesture recognizer
         let tapGesture = UITapGestureRecognizer(target: self, action: "handleTap:")
@@ -106,6 +104,10 @@ class GameViewController: UIViewController {
             }
         }
     }
+
+    
+    // Device setting //
+    
     
     override func shouldAutorotate() -> Bool {
         return true

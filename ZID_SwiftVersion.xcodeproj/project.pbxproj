@@ -7,6 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C252E351AD433DB0046BDE5 /* desertTexture.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C252E341AD433DB0046BDE5 /* desertTexture.jpg */; };
+		0C252E501AD439DB0046BDE5 /* skybox_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C252E4A1AD439DB0046BDE5 /* skybox_back.png */; };
+		0C252E511AD439DB0046BDE5 /* skybox_bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C252E4B1AD439DB0046BDE5 /* skybox_bottom.png */; };
+		0C252E521AD439DB0046BDE5 /* skybox_front.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C252E4C1AD439DB0046BDE5 /* skybox_front.png */; };
+		0C252E531AD439DB0046BDE5 /* skybox_left.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C252E4D1AD439DB0046BDE5 /* skybox_left.png */; };
+		0C252E541AD439DB0046BDE5 /* skybox_right.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C252E4E1AD439DB0046BDE5 /* skybox_right.png */; };
+		0C252E551AD439DB0046BDE5 /* skybox_up.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C252E4F1AD439DB0046BDE5 /* skybox_up.png */; };
+		0C252E571AD43FF80046BDE5 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C252E561AD43FF80046BDE5 /* SpriteKit.framework */; };
+		0C252E591AD43FFE0046BDE5 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C252E581AD43FFE0046BDE5 /* CoreMotion.framework */; };
+		0C252E681AD442580046BDE5 /* ambulance.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C252E5C1AD442580046BDE5 /* ambulance.jpg */; };
+		0C252E691AD442580046BDE5 /* building_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C252E5D1AD442580046BDE5 /* building_1.jpg */; };
+		0C252E6A1AD442580046BDE5 /* building_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C252E5E1AD442580046BDE5 /* building_2.jpg */; };
+		0C252E6B1AD442580046BDE5 /* building_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C252E5F1AD442580046BDE5 /* building_3.jpg */; };
+		0C252E6C1AD442580046BDE5 /* building.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C252E601AD442580046BDE5 /* building.jpg */; };
+		0C252E6D1AD442580046BDE5 /* bus_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C252E611AD442580046BDE5 /* bus_1.jpg */; };
+		0C252E6E1AD442580046BDE5 /* bus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C252E621AD442580046BDE5 /* bus.jpg */; };
+		0C252E6F1AD442580046BDE5 /* concrete_roadblock_d.dds in Resources */ = {isa = PBXBuildFile; fileRef = 0C252E631AD442580046BDE5 /* concrete_roadblock_d.dds */; };
+		0C252E701AD442580046BDE5 /* ConcretePlates0138_5_S.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C252E641AD442580046BDE5 /* ConcretePlates0138_5_S.jpg */; };
+		0C252E711AD442580046BDE5 /* container.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C252E651AD442580046BDE5 /* container.jpg */; };
+		0C252E721AD442580046BDE5 /* road_me4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C252E661AD442580046BDE5 /* road_me4.jpg */; };
+		0C252E731AD442580046BDE5 /* stage1.DAE in Resources */ = {isa = PBXBuildFile; fileRef = 0C252E671AD442580046BDE5 /* stage1.DAE */; };
+		0C252E751AD444470046BDE5 /* car_test.DAE in Resources */ = {isa = PBXBuildFile; fileRef = 0C252E741AD444470046BDE5 /* car_test.DAE */; };
+		0C252E7C1AD44E540046BDE5 /* zombie_ani.DAE in Resources */ = {isa = PBXBuildFile; fileRef = 0C252E791AD44E540046BDE5 /* zombie_ani.DAE */; };
+		0C252E7D1AD44E540046BDE5 /* zombie_D.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C252E7A1AD44E540046BDE5 /* zombie_D.jpg */; };
+		0C252E7E1AD44E540046BDE5 /* zombie.DAE in Resources */ = {isa = PBXBuildFile; fileRef = 0C252E7B1AD44E540046BDE5 /* zombie.DAE */; };
+		0C252E821AD452460046BDE5 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C252E811AD452460046BDE5 /* GameScene.swift */; };
+		0C252E861AD4566E0046BDE5 /* idle.dae in Resources */ = {isa = PBXBuildFile; fileRef = 0C252E851AD4566E0046BDE5 /* idle.dae */; };
+		0C252E891AD456860046BDE5 /* explorer_skinned.dae in Resources */ = {isa = PBXBuildFile; fileRef = 0C252E871AD456860046BDE5 /* explorer_skinned.dae */; };
+		0C252E8A1AD456860046BDE5 /* explorer.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C252E881AD456860046BDE5 /* explorer.png */; };
+		0C252E941AD463C10046BDE5 /* car.dae in Resources */ = {isa = PBXBuildFile; fileRef = 0C252E921AD463C10046BDE5 /* car.dae */; };
+		0C252E951AD463C10046BDE5 /* frog.dae in Resources */ = {isa = PBXBuildFile; fileRef = 0C252E931AD463C10046BDE5 /* frog.dae */; };
 		0C5DDE261AD2FA5F00911740 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5DDE251AD2FA5F00911740 /* AppDelegate.swift */; };
 		0C5DDE281AD2FA5F00911740 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C5DDE271AD2FA5F00911740 /* art.scnassets */; };
 		0C5DDE2A1AD2FA5F00911740 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5DDE291AD2FA5F00911740 /* GameViewController.swift */; };
@@ -14,6 +45,7 @@
 		0C5DDE2F1AD2FA5F00911740 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C5DDE2E1AD2FA5F00911740 /* Images.xcassets */; };
 		0C5DDE321AD2FA5F00911740 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C5DDE301AD2FA5F00911740 /* LaunchScreen.xib */; };
 		0C5DDE3E1AD2FA5F00911740 /* ZID_SwiftVersionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5DDE3D1AD2FA5F00911740 /* ZID_SwiftVersionTests.swift */; };
+		0CC431031AD46F4D007F16BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CC431021AD46F4D007F16BE /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +59,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C252E341AD433DB0046BDE5 /* desertTexture.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = desertTexture.jpg; sourceTree = "<group>"; };
+		0C252E4A1AD439DB0046BDE5 /* skybox_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = skybox_back.png; sourceTree = "<group>"; };
+		0C252E4B1AD439DB0046BDE5 /* skybox_bottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = skybox_bottom.png; sourceTree = "<group>"; };
+		0C252E4C1AD439DB0046BDE5 /* skybox_front.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = skybox_front.png; sourceTree = "<group>"; };
+		0C252E4D1AD439DB0046BDE5 /* skybox_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = skybox_left.png; sourceTree = "<group>"; };
+		0C252E4E1AD439DB0046BDE5 /* skybox_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = skybox_right.png; sourceTree = "<group>"; };
+		0C252E4F1AD439DB0046BDE5 /* skybox_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = skybox_up.png; sourceTree = "<group>"; };
+		0C252E561AD43FF80046BDE5 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		0C252E581AD43FFE0046BDE5 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		0C252E5C1AD442580046BDE5 /* ambulance.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ambulance.jpg; path = "../../Google 드라이브/스테이지 1/stage 1 리소스 및 dae 지금 이거야/ambulance.jpg"; sourceTree = "<group>"; };
+		0C252E5D1AD442580046BDE5 /* building_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = building_1.jpg; path = "../../Google 드라이브/스테이지 1/stage 1 리소스 및 dae 지금 이거야/building_1.jpg"; sourceTree = "<group>"; };
+		0C252E5E1AD442580046BDE5 /* building_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = building_2.jpg; path = "../../Google 드라이브/스테이지 1/stage 1 리소스 및 dae 지금 이거야/building_2.jpg"; sourceTree = "<group>"; };
+		0C252E5F1AD442580046BDE5 /* building_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = building_3.jpg; path = "../../Google 드라이브/스테이지 1/stage 1 리소스 및 dae 지금 이거야/building_3.jpg"; sourceTree = "<group>"; };
+		0C252E601AD442580046BDE5 /* building.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = building.jpg; path = "../../Google 드라이브/스테이지 1/stage 1 리소스 및 dae 지금 이거야/building.jpg"; sourceTree = "<group>"; };
+		0C252E611AD442580046BDE5 /* bus_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bus_1.jpg; path = "../../Google 드라이브/스테이지 1/stage 1 리소스 및 dae 지금 이거야/bus_1.jpg"; sourceTree = "<group>"; };
+		0C252E621AD442580046BDE5 /* bus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bus.jpg; path = "../../Google 드라이브/스테이지 1/stage 1 리소스 및 dae 지금 이거야/bus.jpg"; sourceTree = "<group>"; };
+		0C252E631AD442580046BDE5 /* concrete_roadblock_d.dds */ = {isa = PBXFileReference; lastKnownFileType = file; name = concrete_roadblock_d.dds; path = "../../Google 드라이브/스테이지 1/stage 1 리소스 및 dae 지금 이거야/concrete_roadblock_d.dds"; sourceTree = "<group>"; };
+		0C252E641AD442580046BDE5 /* ConcretePlates0138_5_S.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ConcretePlates0138_5_S.jpg; path = "../../Google 드라이브/스테이지 1/stage 1 리소스 및 dae 지금 이거야/ConcretePlates0138_5_S.jpg"; sourceTree = "<group>"; };
+		0C252E651AD442580046BDE5 /* container.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = container.jpg; path = "../../Google 드라이브/스테이지 1/stage 1 리소스 및 dae 지금 이거야/container.jpg"; sourceTree = "<group>"; };
+		0C252E661AD442580046BDE5 /* road_me4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = road_me4.jpg; path = "../../Google 드라이브/스테이지 1/stage 1 리소스 및 dae 지금 이거야/road_me4.jpg"; sourceTree = "<group>"; };
+		0C252E671AD442580046BDE5 /* stage1.DAE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; name = stage1.DAE; path = "../../Google 드라이브/스테이지 1/stage 1 리소스 및 dae 지금 이거야/stage1.DAE"; sourceTree = "<group>"; };
+		0C252E741AD444470046BDE5 /* car_test.DAE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; name = car_test.DAE; path = "../../Google 드라이브/자동차/car_test.DAE"; sourceTree = "<group>"; };
+		0C252E791AD44E540046BDE5 /* zombie_ani.DAE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = zombie_ani.DAE; sourceTree = "<group>"; };
+		0C252E7A1AD44E540046BDE5 /* zombie_D.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zombie_D.jpg; sourceTree = "<group>"; };
+		0C252E7B1AD44E540046BDE5 /* zombie.DAE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = zombie.DAE; sourceTree = "<group>"; };
+		0C252E811AD452460046BDE5 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		0C252E851AD4566E0046BDE5 /* idle.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = idle.dae; sourceTree = "<group>"; };
+		0C252E871AD456860046BDE5 /* explorer_skinned.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = explorer_skinned.dae; sourceTree = "<group>"; };
+		0C252E881AD456860046BDE5 /* explorer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = explorer.png; sourceTree = "<group>"; };
+		0C252E921AD463C10046BDE5 /* car.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = car.dae; sourceTree = "<group>"; };
+		0C252E931AD463C10046BDE5 /* frog.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = frog.dae; sourceTree = "<group>"; };
+		0C252E961AD463E70046BDE5 /* model_texture.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = model_texture.tga; sourceTree = "<group>"; };
 		0C5DDE201AD2FA5F00911740 /* ZID_SwiftVersion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZID_SwiftVersion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C5DDE241AD2FA5F00911740 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C5DDE251AD2FA5F00911740 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +102,7 @@
 		0C5DDE371AD2FA5F00911740 /* ZID_SwiftVersionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZID_SwiftVersionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C5DDE3C1AD2FA5F00911740 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C5DDE3D1AD2FA5F00911740 /* ZID_SwiftVersionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZID_SwiftVersionTests.swift; sourceTree = "<group>"; };
+		0CC431021AD46F4D007F16BE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +110,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CC431031AD46F4D007F16BE /* UIKit.framework in Frameworks */,
+				0C252E591AD43FFE0046BDE5 /* CoreMotion.framework in Frameworks */,
+				0C252E571AD43FF80046BDE5 /* SpriteKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,9 +126,107 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C252E331AD433AA0046BDE5 /* 2D_resource */ = {
+			isa = PBXGroup;
+			children = (
+				0C252E361AD4388A0046BDE5 /* skybox */,
+				0C252E341AD433DB0046BDE5 /* desertTexture.jpg */,
+			);
+			name = 2D_resource;
+			sourceTree = "<group>";
+		};
+		0C252E361AD4388A0046BDE5 /* skybox */ = {
+			isa = PBXGroup;
+			children = (
+				0C252E4A1AD439DB0046BDE5 /* skybox_back.png */,
+				0C252E4B1AD439DB0046BDE5 /* skybox_bottom.png */,
+				0C252E4C1AD439DB0046BDE5 /* skybox_front.png */,
+				0C252E4D1AD439DB0046BDE5 /* skybox_left.png */,
+				0C252E4E1AD439DB0046BDE5 /* skybox_right.png */,
+				0C252E4F1AD439DB0046BDE5 /* skybox_up.png */,
+			);
+			name = skybox;
+			sourceTree = "<group>";
+		};
+		0C252E5A1AD4423B0046BDE5 /* 3D_resource */ = {
+			isa = PBXGroup;
+			children = (
+				0C252E871AD456860046BDE5 /* explorer_skinned.dae */,
+				0C252E881AD456860046BDE5 /* explorer.png */,
+				0C252E851AD4566E0046BDE5 /* idle.dae */,
+				0C252E791AD44E540046BDE5 /* zombie_ani.DAE */,
+				0C252E7A1AD44E540046BDE5 /* zombie_D.jpg */,
+				0C252E7B1AD44E540046BDE5 /* zombie.DAE */,
+				0C252E741AD444470046BDE5 /* car_test.DAE */,
+				0C252E5B1AD4424D0046BDE5 /* Stage1 */,
+			);
+			name = 3D_resource;
+			sourceTree = "<group>";
+		};
+		0C252E5B1AD4424D0046BDE5 /* Stage1 */ = {
+			isa = PBXGroup;
+			children = (
+				0C252E5C1AD442580046BDE5 /* ambulance.jpg */,
+				0C252E5D1AD442580046BDE5 /* building_1.jpg */,
+				0C252E5E1AD442580046BDE5 /* building_2.jpg */,
+				0C252E5F1AD442580046BDE5 /* building_3.jpg */,
+				0C252E601AD442580046BDE5 /* building.jpg */,
+				0C252E611AD442580046BDE5 /* bus_1.jpg */,
+				0C252E621AD442580046BDE5 /* bus.jpg */,
+				0C252E631AD442580046BDE5 /* concrete_roadblock_d.dds */,
+				0C252E641AD442580046BDE5 /* ConcretePlates0138_5_S.jpg */,
+				0C252E651AD442580046BDE5 /* container.jpg */,
+				0C252E661AD442580046BDE5 /* road_me4.jpg */,
+				0C252E671AD442580046BDE5 /* stage1.DAE */,
+			);
+			name = Stage1;
+			sourceTree = "<group>";
+		};
+		0C252E7F1AD452140046BDE5 /* frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C252E581AD43FFE0046BDE5 /* CoreMotion.framework */,
+				0C252E561AD43FF80046BDE5 /* SpriteKit.framework */,
+			);
+			name = frameworks;
+			sourceTree = "<group>";
+		};
+		0C252E801AD452290046BDE5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0C252E5A1AD4423B0046BDE5 /* 3D_resource */,
+				0C252E331AD433AA0046BDE5 /* 2D_resource */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		0C252E911AD463B80046BDE5 /* testResource.scnassets */ = {
+			isa = PBXGroup;
+			children = (
+				0C252E921AD463C10046BDE5 /* car.dae */,
+				0C252E961AD463E70046BDE5 /* model_texture.tga */,
+				0C252E931AD463C10046BDE5 /* frog.dae */,
+			);
+			name = testResource.scnassets;
+			sourceTree = "<group>";
+		};
+		0C252E971AD4648B0046BDE5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0C5DDE251AD2FA5F00911740 /* AppDelegate.swift */,
+				0C5DDE291AD2FA5F00911740 /* GameViewController.swift */,
+				0C252E811AD452460046BDE5 /* GameScene.swift */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
 		0C5DDE171AD2FA5F00911740 = {
 			isa = PBXGroup;
 			children = (
+				0CC431021AD46F4D007F16BE /* UIKit.framework */,
+				0C252E911AD463B80046BDE5 /* testResource.scnassets */,
+				0C252E7F1AD452140046BDE5 /* frameworks */,
+				0C252E801AD452290046BDE5 /* Resources */,
 				0C5DDE221AD2FA5F00911740 /* ZID_SwiftVersion */,
 				0C5DDE3A1AD2FA5F00911740 /* ZID_SwiftVersionTests */,
 				0C5DDE211AD2FA5F00911740 /* Products */,
@@ -79,9 +245,8 @@
 		0C5DDE221AD2FA5F00911740 /* ZID_SwiftVersion */ = {
 			isa = PBXGroup;
 			children = (
-				0C5DDE251AD2FA5F00911740 /* AppDelegate.swift */,
+				0C252E971AD4648B0046BDE5 /* Classes */,
 				0C5DDE271AD2FA5F00911740 /* art.scnassets */,
-				0C5DDE291AD2FA5F00911740 /* GameViewController.swift */,
 				0C5DDE2B1AD2FA5F00911740 /* Main.storyboard */,
 				0C5DDE2E1AD2FA5F00911740 /* Images.xcassets */,
 				0C5DDE301AD2FA5F00911740 /* LaunchScreen.xib */,
@@ -164,6 +329,7 @@
 				TargetAttributes = {
 					0C5DDE1F1AD2FA5F00911740 = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = F348L4AESR;
 					};
 					0C5DDE361AD2FA5F00911740 = {
 						CreatedOnToolsVersion = 6.2;
@@ -195,9 +361,37 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C252E6E1AD442580046BDE5 /* bus.jpg in Resources */,
+				0C252E681AD442580046BDE5 /* ambulance.jpg in Resources */,
+				0C252E6F1AD442580046BDE5 /* concrete_roadblock_d.dds in Resources */,
+				0C252E501AD439DB0046BDE5 /* skybox_back.png in Resources */,
+				0C252E6B1AD442580046BDE5 /* building_3.jpg in Resources */,
 				0C5DDE321AD2FA5F00911740 /* LaunchScreen.xib in Resources */,
+				0C252E531AD439DB0046BDE5 /* skybox_left.png in Resources */,
+				0C252E891AD456860046BDE5 /* explorer_skinned.dae in Resources */,
+				0C252E6A1AD442580046BDE5 /* building_2.jpg in Resources */,
+				0C252E351AD433DB0046BDE5 /* desertTexture.jpg in Resources */,
+				0C252E691AD442580046BDE5 /* building_1.jpg in Resources */,
+				0C252E731AD442580046BDE5 /* stage1.DAE in Resources */,
+				0C252E521AD439DB0046BDE5 /* skybox_front.png in Resources */,
+				0C252E6C1AD442580046BDE5 /* building.jpg in Resources */,
+				0C252E951AD463C10046BDE5 /* frog.dae in Resources */,
+				0C252E511AD439DB0046BDE5 /* skybox_bottom.png in Resources */,
+				0C252E7D1AD44E540046BDE5 /* zombie_D.jpg in Resources */,
+				0C252E711AD442580046BDE5 /* container.jpg in Resources */,
+				0C252E7C1AD44E540046BDE5 /* zombie_ani.DAE in Resources */,
+				0C252E551AD439DB0046BDE5 /* skybox_up.png in Resources */,
+				0C252E861AD4566E0046BDE5 /* idle.dae in Resources */,
+				0C252E6D1AD442580046BDE5 /* bus_1.jpg in Resources */,
+				0C252E751AD444470046BDE5 /* car_test.DAE in Resources */,
+				0C252E721AD442580046BDE5 /* road_me4.jpg in Resources */,
+				0C252E7E1AD44E540046BDE5 /* zombie.DAE in Resources */,
+				0C252E701AD442580046BDE5 /* ConcretePlates0138_5_S.jpg in Resources */,
 				0C5DDE2F1AD2FA5F00911740 /* Images.xcassets in Resources */,
 				0C5DDE281AD2FA5F00911740 /* art.scnassets in Resources */,
+				0C252E541AD439DB0046BDE5 /* skybox_right.png in Resources */,
+				0C252E941AD463C10046BDE5 /* car.dae in Resources */,
+				0C252E8A1AD456860046BDE5 /* explorer.png in Resources */,
 				0C5DDE2D1AD2FA5F00911740 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,6 +410,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C252E821AD452460046BDE5 /* GameScene.swift in Sources */,
 				0C5DDE2A1AD2FA5F00911740 /* GameViewController.swift in Sources */,
 				0C5DDE261AD2FA5F00911740 /* AppDelegate.swift in Sources */,
 			);
@@ -342,7 +537,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ZID_SwiftVersion/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -352,7 +549,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ZID_SwiftVersion/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -411,6 +610,7 @@
 				0C5DDE431AD2FA5F00911740 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0C5DDE441AD2FA5F00911740 /* Build configuration list for PBXNativeTarget "ZID_SwiftVersionTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +619,7 @@
 				0C5DDE461AD2FA5F00911740 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
